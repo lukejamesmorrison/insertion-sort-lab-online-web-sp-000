@@ -15,6 +15,8 @@ function findMinAndRemove(array){
     };
   }
 
+  return min;
+
   // if index is less that next index, remove and set as min
 }
 

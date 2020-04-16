@@ -11,7 +11,7 @@ function findMinAndRemove(array){
     };
   }
 
-  return [min];
+  return min;
 }
 
 function insertionSort(array){

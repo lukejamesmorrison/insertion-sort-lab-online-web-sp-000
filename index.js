@@ -24,7 +24,7 @@ function insertionSort(array){
 
   while(unsorted.length > 0)
   {
-    sorted.push(findMinAndRemove(array));
+    sorted.push(findMinAndRemove(unsorted));
   };
 
   return sorted;

@@ -22,7 +22,7 @@ function insertionSort(array){
   var unsorted = array;
   var sorted = [];
 
-  console.log(unsorted)
+  console.log(unsorted);
 
   for(let i = 0; i < array.length; i++)
   {

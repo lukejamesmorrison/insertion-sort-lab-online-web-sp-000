@@ -22,6 +22,8 @@ function insertionSort(array){
   var unsorted = array;
   var sorted = [];
 
+  console.log(unsorted)
+
   for(let i = 0; i < array.length; i++)
   {
     sorted.push(findMinAndRemove(array));

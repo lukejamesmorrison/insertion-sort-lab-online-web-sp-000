@@ -22,7 +22,7 @@ function insertionSort(array){
   var unsorted = array;
   var sorted = [];
 
-  for(let i = 0; i < unsorted.length; i++)
+  while(unsorted.length > 0)
   {
     sorted.push(findMinAndRemove(array));
   };

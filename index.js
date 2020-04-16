@@ -21,7 +21,7 @@ function findMinAndRemove(array){
 function insertionSort(array){
   var sorted = [];
 
-  while(unsorted.length > 0)
+  while(array.length > 0)
   {
     sorted.push(findMinAndRemove(array));
   };

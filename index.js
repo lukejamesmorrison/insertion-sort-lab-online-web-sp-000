@@ -1,4 +1,4 @@
-let array = [1, 4, 12, 3]
+let array = [1, 4, 12, 3];
 
 console.log(findMinAndRemove(array));
 

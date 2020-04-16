@@ -1,6 +1,6 @@
 let array = [2, 4, 12, 3, 1];
 
-console.log(insertSorted(array));
+console.log(insertionSorted(array));
 
 function findMinAndRemove(array){
   var min = array[0];

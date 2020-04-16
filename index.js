@@ -1,6 +1,6 @@
-let initArray = [2, 4, 12, 3, 1];
+let array = [2, 4, 12, 3, 1];
 
-console.log(findMinAndRemove(initArray));
+console.log(findMinAndRemove(array));
 
 function findMinAndRemove(array){
   var min = array[0];

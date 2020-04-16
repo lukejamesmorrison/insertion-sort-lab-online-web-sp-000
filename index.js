@@ -19,12 +19,11 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-  var unsorted = array;
   var sorted = [];
 
   while(unsorted.length > 0)
   {
-    sorted.push(findMinAndRemove(unsorted));
+    sorted.push(findMinAndRemove(array));
   };
 
   return sorted;

@@ -1,4 +1,4 @@
-let initArray = [2, 4, 12, 3];
+let initArray = [2, 4, 12, 3, 1];
 
 console.log(findMinAndRemove(initArray));
 

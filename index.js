@@ -19,5 +19,11 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
+  var unsorted = array;
+  var sorted = [];
 
+  for(let i = 0; i < array.length; i++)
+  {
+    sorted.push(findMinAndRemove(array));
+  }
 }
